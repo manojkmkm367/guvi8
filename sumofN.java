@@ -8,13 +8,9 @@ import java.util.*;
 			  Scanner in=new Scanner(System.in);
 			  int n=in.nextInt(); 
 			  int x=0;
-			for(int i=0;n!=0;i++)
-			{
-				n=n/10;
-				x++;
-			}
-			
-			
+			for(int i=0;i<n;i++)
+				x=x+i+1;
+		
 			  System.out.println(x);
 		  }
 }
